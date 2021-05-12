@@ -17,15 +17,15 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@components/*": ["src/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@components/*": ["components/*"],
+      "@layout/*": ["components/layout/*"],
+      "@landing/*": ["components/landing/*"],
+      "@pages/*": ["pages/*"],
       "@/*": ["./*"]
     }
-  },
-  "_moduleAliases": {
-    "@components": "components",
-    "@": "/"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]

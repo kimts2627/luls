@@ -1,3 +1,27 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+
+// Web font from google webfont <Lato-400;700 , Montserrat-700>
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@700&display=swap");
+
+html {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.Lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.Lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
