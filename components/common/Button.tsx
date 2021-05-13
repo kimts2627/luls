@@ -1,9 +1,9 @@
 import React from "react";
-import { ButtonConfig, ButtonSpaceSize, ButtonSpaceDirection } from "@interfaces/atoms";
+import { ButtonConfig, SpaceSize, SpaceDirection } from "@interfaces/atoms";
 
 type SetMarginArgs = {
-  direction: ButtonSpaceDirection;
-  px: ButtonSpaceSize;
+  direction: SpaceDirection;
+  px: SpaceSize;
 };
 
 const Button: React.FC<ButtonConfig> = ({

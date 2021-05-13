@@ -8,7 +8,7 @@ const AboutUsSponsors: React.FC = () => {
   return (
     <section className="flex flex-col mb-40px">
       <h2 className="text-20px leading-28px mb-20px Lato-bold">Sponsors</h2>
-      <section className="flex w-744px h-78px justify-between">
+      <section className="flex w-728px h-78px justify-between">
         <SponsorLogo />
         <SponsorLogo />
         <SponsorLogo />

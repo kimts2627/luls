@@ -4,6 +4,9 @@
 //
 // import { User } from 'path/to/interfaces';
 
+export type SpaceDirection = "x" | "y" | "left" | "right" | "top" | "bottom";
+export type SpaceSize = "20" | "24" | "40";
+
 export interface ButtonConfig {
   width: ButtonSizeValue;
   height: ButtonSizeValue;
@@ -12,12 +15,21 @@ export interface ButtonConfig {
   txtColor?: string;
   outLine?: boolean;
   margin?: {
-    direction: ButtonSpaceDirection;
-    px: ButtonSpaceSize;
+    direction: SpaceDirection;
+    px: SpaceSize;
   };
   clickFn?: () => void;
 }
 
-export type ButtonSpaceDirection = "x" | "y" | "left" | "right" | "top" | "bottom";
-export type ButtonSpaceSize = "20";
-export type ButtonSizeValue = "40" | "72" | "110" | "400";
+export type ButtonSizeValue = "40" | "60" | "72" | "110" | "258" | "400";
+
+export interface ArticleConfig {
+  title: string;
+  content: string;
+  width?: string;
+  margin?: {
+    direction: SpaceDirection;
+    px: SpaceSize;
+  };
+  align?: "left" | "center" | "right";
+}
