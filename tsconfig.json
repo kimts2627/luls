@@ -21,6 +21,7 @@
     "paths": {
       "@interfaces/*": ["interfaces/*"],
       "@components/*": ["components/*"],
+      "@common/*": ["components/common/*"],
       "@layout/*": ["components/layout/*"],
       "@landing/*": ["components/landing/*"],
       "@pages/*": ["pages/*"],
