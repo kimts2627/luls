@@ -26,6 +26,7 @@ module.exports = {
       height: {
         "20px": "20px",
         "40px": "40px",
+        "48px": "48px",
         "60px": "60px",
         "72px": "72px",
         "78px": "78px",
@@ -39,6 +40,7 @@ module.exports = {
       },
       inset: {
         "72px": "72px",
+        "160px": "160px",
         "400px": "400px",
       },
       margin: {
@@ -48,6 +50,7 @@ module.exports = {
         "40px": "40px",
         "50px": "50px",
         "72px": "72px",
+        "80px": "80px",
         "208px": "208px",
         "400px": "400px",
       },
@@ -57,11 +60,14 @@ module.exports = {
         "40px": "40px",
         "80px": "80px",
         "72px": "72px",
+        "102px": "102px",
         "208px": "208px",
         "400px": "400px",
+        "160px": "160px",
       },
       fontSize: {
         "12px": "12px",
+        "14px": "14px",
         "16px": "16px",
         "20px": "20px",
         "30px": "30px",

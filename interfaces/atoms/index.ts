@@ -5,7 +5,7 @@
 // import { User } from 'path/to/interfaces';
 
 export type SpaceDirection = "x" | "y" | "left" | "right" | "top" | "bottom";
-export type SpaceSize = "20" | "24" | "40";
+export type SpaceSize = "10" | "20" | "24" | "40";
 
 export interface ButtonConfig {
   width: ButtonSizeValue;
@@ -21,7 +21,7 @@ export interface ButtonConfig {
   clickFn?: () => void;
 }
 
-export type ButtonSizeValue = "40" | "60" | "72" | "110" | "258" | "400";
+export type ButtonSizeValue = "40" | "48" | "60" | "72" | "110" | "164" | "258" | "400";
 
 export interface ArticleConfig {
   title: string;

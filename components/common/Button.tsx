@@ -47,7 +47,7 @@ const Button: React.FC<ButtonConfig> = ({
       className={`w-${width}px h-${height}px bg-${setButtonColor(color)}
         text-${setButtonColor(txtColor)}
         rounded-standard ${outLine ? "" : "focus:outline-none"}
-        ${setBUttonMargin(margin)} mr-20px`}
+        ${setBUttonMargin(margin)}`}
       onClick={clickFn ? clickFn : undefined}
     >
       <p>{ctx}</p>

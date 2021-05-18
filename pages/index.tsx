@@ -13,7 +13,7 @@ const index: React.FC = () => {
     <>
       <Layout />
       <div className="flex justify-center items-center">
-        <div className="w-full max-w-screen-1440 flex flex-col justify-start items-center mt-72px">
+        <div className="w-full max-w-screen-1440 flex flex-col justify-start items-center mt-72px overflow-hidden">
           <Slogan />
           <AboutUs />
           <Membership />
