@@ -7,7 +7,7 @@ const Lead: React.FC = () => {
   return (
     <section className="w-full bg-pink-100 flex flex-col items-center justify-center">
       <div className="w-full h-full max-w-screen-1120 bg-pink-200 py-80px flex flex-col">
-        <aside className="w-full bg-pink-500 Montserrat text-30px flex justify-center items-center mb-72px">
+        <aside className="w-full bg-pink-500 text-30px flex justify-center items-center mb-72px DMSans-bd">
           Join US!
         </aside>
         <section className="w-full flex justify-center">

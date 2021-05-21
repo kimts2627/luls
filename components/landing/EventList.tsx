@@ -12,7 +12,7 @@ const SingleEvent: React.FC = () => {
 const EventList: React.FC = () => {
   return (
     <section>
-      <h2 className="text-20px leading-28px mb-20px Lato-bold">All Events</h2>
+      <h2 className="text-20px leading-28px mb-20px DMSans-bd">All Events</h2>
       <section className="flex flex-wrap justify-between w-728px">
         <SingleEvent />
         <SingleEvent />

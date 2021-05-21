@@ -12,7 +12,7 @@ const Person: React.FC = () => {
 const AboutUsPeople: React.FC = () => {
   return (
     <section className="flex flex-col">
-      <h2 className="text-20px leading-28px mb-20px Lato-bold">People</h2>
+      <h2 className="text-20px leading-28px mb-20px DMSans-bd">People</h2>
       <section className="flex w-728px h-150px justify-between">
         <Person />
         <Person />

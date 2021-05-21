@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
       <div className="bg-gray-100 w-full max-w-screen-1440 h-full flex items-center justify-center">
         <div className="w-full bg-gray-200 max-w-screen-1120 h-full flex">
           <span className="w-logoBox h-full flex justify-center items-center">
-            <p className="w-full pl-20px Montserrat text-20px">LIKE LION US LOGO</p>
+            <p className="w-full pl-20px text-20px DMSans-bd">LIKE LION US LOGO</p>
           </span>
           <Nav />
           <Button

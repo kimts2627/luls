@@ -4,18 +4,18 @@ import Link from "next/link";
 const Nav: React.FC = () => {
   return (
     <nav className="h-full flex-1">
-      <section className="w-full h-full flex justify-evenly items-center">
+      <section className="w-full h-full DMSans-bd flex justify-evenly items-center">
         <Link href="/">
-          <p className="cursor-pointer Lato-bold">AboutUS</p>
+          <p className="cursor-pointer">AboutUS</p>
         </Link>
         <Link href="/">
-          <p className="cursor-pointer Lato-bold">Membership</p>
+          <p className="cursor-pointer">Membership</p>
         </Link>
         <Link href="/">
-          <p className="cursor-pointer Lato-bold">Lead</p>
+          <p className="cursor-pointer">Lead</p>
         </Link>
         <Link href="/">
-          <p className="cursor-pointer Lato-bold">Event</p>
+          <p className="cursor-pointer">Event</p>
         </Link>
       </section>
     </nav>

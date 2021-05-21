@@ -40,7 +40,7 @@ const Articles: React.FC<ArticleConfig> = ({ title, content, margin, width = "25
     <article
       className={`flex flex-col ${setArticleAlign(align)} ${`w-${width}px`} ${setArticleMargin(margin)}`}
     >
-      <h2 className="mb-20px text-20px Lato-bold">{title}</h2>
+      <h2 className="mb-20px text-20px DMSans-bd">{title}</h2>
       <p className="text-16px leading-23px w-full">{content}</p>
     </article>
   );

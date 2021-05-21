@@ -2,26 +2,36 @@
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 
-// Web font from google webfont <Lato-400;700 , Montserrat-700>
+body {
+  font-family: "DM Sans", sans-serif;
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@700&display=swap");
-
-html {
-  font-family: "Lato", sans-serif;
+@font-face {
+  font-family: "DM Sans";
   font-weight: 400;
+  src: url("/fonts/DMSans-Regular.ttf") format("truetype");
 }
 
-.Montserrat {
-  font-family: "Montserrat", sans-serif;
+@font-face {
+  font-family: "DM Sans-md";
+  font-weight: 500;
+  src: url("/fonts/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans-bd";
   font-weight: 700;
+  src: url("/fonts/DMSans-Bold.ttf") format("truetype");
 }
 
-.Lato {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+.DMSans {
+  font-family: "DM Sans";
 }
 
-.Lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+.DMSans-md {
+  font-family: "DM Sans-md";
+}
+
+.DMSans-bd {
+  font-family: "DM Sans-bd";
 }
